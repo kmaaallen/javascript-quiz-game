@@ -51,6 +51,20 @@ function start(){
     quiz.style.display="block;" // this renders the quiz div visible
 }
 
+//function to check if answer is correct
+
+function checkCorrect(answer){
+    if (answer == questions[questionIndex].correct){
+        score ++; // score goes up by one if answer correct
+    }else{
+        score = score;
+    }
+    if(questionIndex<questions.length){
+        getQuestion();
+    }else{
+        showScore();
+    }
+}
     
 })
 

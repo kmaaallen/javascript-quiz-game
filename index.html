@@ -10,17 +10,19 @@
     <title>Native Birds Quiz</title>
 </head>
 <body>
-    <header>Native Birds of New Zealand Quiz</header>
     <div class="container">
-        <div class="quiz-header">Quiz</div>
-        <div class="question"></div>
-        <div class="answers">
-            <button class="buttonA"><span class="optionA"></span></button>
-            <button class="buttonB"><span class="optionB"></span></button>
-            <button class="buttonC"><span class="optionC"></span></button>
-            <button class="buttonD"><span class="optionD"></span></button>
+        <div id="start">Start the Quiz!</div>
+        <div id="quiz" style="display:none">
+            <div id="question"></div>
+            <div id="qImg"></div>
+            <div id="options">
+                <div class="option" id = "A" onClick = checkCorrect('A')></div>
+                <div class="option" id = "B" onClick = checkCorrect('B')></div>
+                <div class="option" id = "C" onClick = checkCorrect('C')></div>
+                <div class="option" id = "D" onClick = checkCorrect('D')></div>
+            </div>
         </div>
-        <div class="question-count"><span>Question x of y </span></div>
+        <div id="score-container" style="display:none"></div>
     </div>
 </body>
 </html>

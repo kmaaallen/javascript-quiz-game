@@ -1,24 +1,22 @@
-$(document).ready(function(){
- 
+
 //declare all variables
 var start = document.getElementById("start");
 var quiz = document.getElementById("quiz");
 var question = document.getElementById("question");
-var qImg = document.getElementById("qImg");
-var options = document.getElementById("options");
 var optionA = document.getElementById("A");
 var optionB = document.getElementById("B");
 var optionC = document.getElementById("C");
 var optionD = document.getElementById("D");
+var scoreBlock = document.getElementById("score-container");
 
 var score = 0;
 
 //questions function so our getQuestion function later can get the right value from array
 
-function Questions (question,options,answer){
+function Questions (question,options,correctAnswer){
     this.question = question;
-    this.options=options;
-    this.answer=answer;
+    this.options = options;
+    this.correctAnswer = correctAnswer;
 }
 
 var questions = [
@@ -35,37 +33,45 @@ var finalQuestion = questions.length - 1;
 function getQuestion(){
     let q = questions[questionIndex];
     question.innerHTML = "<p>"+ q.question + "</p>";
-    optionA.innerHTML = "<p>"+ q.options[0] + "</p>";
-    optionB.innerHTML = "<p>"+ q.options[1] + "</p>";
-    optionC.innerHTML = "<p>"+ q.options[2] + "</p>";
-    optionD.innerHTML = "<p>"+ q.options[3] + "</p>";
-    
+    optionA.innerHTML = q.options[0];
+    optionB.innerHTML = q.options[1];
+    optionC.innerHTML = q.options[2];
+    optionD.innerHTML = q.options[3];
 }
-//start function to begin the quiz
 
-start.addEventListener("click", beginQuiz);    // this 'listens out' for the mouse click which will trigger functions below
 
-function start(){
-    start.style.display="none"; //this hides the start block
+// start quiz
+function beginQuiz(){
+    start.style.display = "none";
     getQuestion();
-    quiz.style.display="block;" // this renders the quiz div visible
+    quiz.style.display = "block";
 }
+
+// show score function
+
+function showScore(){
+    scoreBlock.style.display = "block";
+}
+
 
 //function to check if answer is correct
 
 function checkCorrect(answer){
-    if (answer == questions[questionIndex].correct){
+    if(answer == questions[questionIndex].correctAnswer){
         score ++; // score goes up by one if answer correct
     }else{
         score = score;
     }
-    if(questionIndex<questions.length){
+    if(questions[questionIndex]<questions.length){
+        questionIndex++;
         getQuestion();
     }else{
         showScore();
     }
-}
     
-})
+}
+
+
+    
 
 

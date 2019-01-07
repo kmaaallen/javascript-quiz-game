@@ -41,8 +41,17 @@ function getQuestion(){
     optionD.innerHTML = "<p>"+ q.options[3] + "</p>";
     
 }
+//start function to begin the quiz
+
+start.addEventListener("click", beginQuiz);    // this 'listens out' for the mouse click which will trigger functions below
+
+function start(){
+    start.style.display="none"; //this hides the start block
+    getQuestion();
+    quiz.style.display="block;" // this renders the quiz div visible
+}
 
     
-
+})
 
 

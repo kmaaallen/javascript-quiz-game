@@ -6,6 +6,10 @@ body {
     color:#000;
 }
 
+h1{
+    text-align:center;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -18,10 +22,12 @@ body {
     border-radius:23px;
 }
 
-.answers {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
+#start{
+    background-image:url("assets/backgroundFern.jpg");
+}
+
+.start-btn{
+    font-size:20px;
 }
 
 button {

@@ -88,7 +88,16 @@ All content regarding New Zealand native birds was taken from : https://www.doc.
 Images of birds were sourced from google images and filtered by the advanced search. Only images "free to use, share or modify, even commercially"
 were selected.
 Links to the origin of these images are below:
-<br>
+<br>https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwj59rWahd7fAhVEThoKHS_2DeoQjRx6BAgBEAU&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fsidm%2F6637811451&psig=AOvVaw1La-VuonD8N1Ss3sqnO7Jq&ust=1547031908695429
+<br>https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwid2Lrchd7fAhWS4YUKHYj5CzgQjRx6BAgBEAU&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fsidm%2F3711449177&psig=AOvVaw0ZnBS6jEzbz4Ih_HaJnTUJ&ust=1547032062993533
+<br>https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjm5974hd7fAhWC4IUKHXPQDpAQjRx6BAgBEAU&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ANz_boobook.JPG&psig=AOvVaw3MzURV2F8RpT6HOOLbrp9N&ust=1547032133335112
+<br>https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiK5eeIht7fAhUvyYUKHamKCT4QjRx6BAgBEAU&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fsidm%2F6557924841&psig=AOvVaw0CSRtyzr69PPJL4cbTMeig&ust=1547032162330132
+<br>https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjyufyyht7fAhVQzhoKHcXABJ8QjRx6BAgBEAU&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fvolvob12b%2F20151613595&psig=AOvVaw2Q4qOru5-JXd_Ok5gXnDrg&ust=1547032251975036
+<br>https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiNz4fHht7fAhVGxYUKHaLdDwMQjRx6BAgBEAU&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AKakapo_Sirocco_1.jpg&psig=AOvVaw1T7ip3_JiEeF5mhdJj-Vul&ust=1547032288609608
+<br>https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjb27_0ht7fAhVLUhoKHRgWDaQQjRx6BAgBEAU&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fvolvob12b%2F33049220145&psig=AOvVaw1RHKHPYZ4kNXBCxHu-qqqj&ust=1547032337165234
+<br>https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjzgciBh97fAhXoxoUKHbmGDXMQjRx6BAgBEAU&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fvolvob12b%2F9119203963&psig=AOvVaw12DuiE66dqJNup5s3dsmmV&ust=1547032419629999
+<br>https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi1zsCZh97fAhWMyYUKHdxHCXsQjRx6BAgBEAU&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Ftomas_sobek%2F12246604575&psig=AOvVaw10g_guaDg4SFbrkv3v9yXC&ust=1547032459330828
+<br>https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi8q4ath97fAhUlgM4BHUtAClkQjRx6BAgBEAU&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Frlwilsonphotography%2F30716305552&psig=AOvVaw2k1TJjsNrtFhoMphGxyGbS&ust=1547032502213603
 
 ### Acknowledgements
 

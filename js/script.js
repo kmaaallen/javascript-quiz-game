@@ -2,6 +2,7 @@
 var start = document.getElementById("start");
 var quiz = document.getElementById("quiz");
 var quizQuestion = document.getElementById("quizQuestion");
+var quizImg = document.getElementById("quizImg");
 var optionA = document.getElementById("choiceA");
 var optionB = document.getElementById("choiceB");
 var optionC = document.getElementById("choiceC");

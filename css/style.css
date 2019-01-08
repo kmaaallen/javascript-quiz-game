@@ -60,11 +60,6 @@ button:focus {
 }
 
 /*Media queries------------------------------*/
-@media(max-width:768px){
-    button:hover{
-    background-color: transparent;
-    border: none;
-}
 }
 @media(min-width:768px) {
     .container {

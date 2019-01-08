@@ -3,11 +3,11 @@
 body {
     background-color: #578c49;
     font-family: "Roboto", sans-serif;
-    color:#000;
+    color: #000;
 }
 
-h1{
-    text-align:center;
+h1 {
+    text-align: center;
 }
 
 .container {
@@ -16,50 +16,54 @@ h1{
     text-align: center;
     background-color: #99be8f;
     max-width: 700px;
-    max-height:600px;
-    min-height:600px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    border-radius:23px;
+    border-radius: 23px;
 }
 
-.img-div{
-    text-align:center;
+.img-div {
+    text-align: center;
 }
 
-.start-btn{
-    font-size:20px;
-    margin-top:150px;
+.start-btn {
+    font-size: 20px;
+    margin-top: 150px;
 }
 
 button {
     width: 250px;
     height: 60px;
-    border-radius:23px;
+    border-radius: 23px;
     margin: 25px 20px 25px 20px;
-    font-size:15px;
+    font-size: 15px;
+    background-color:#fff;
 }
 
-button:hover{
-    background-color:yellow;
-    border:none;
+button:hover {
+    background-color: yellow;
+    border: none;
 }
 
-button:focus{
-    outline:none;
+button:focus {
+    outline: none;
 }
 
-.question-count{
-    margin-bottom:50px;
+#scoreBlock {
+    padding-top: 100px;
 }
 
-#scoreBlock{
-    padding-top:100px;
-}
-
-.quizRestart{
+.quizRestart {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+/*Media queries------------------------------*/
+
+@media(min-width:768px) {
+    .container {
+        max-height: 600px;
+        min-height: 600px;
+    }
 }

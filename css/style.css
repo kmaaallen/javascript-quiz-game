@@ -16,15 +16,15 @@ h1{
     text-align: center;
     background-color: #99be8f;
     max-width: 700px;
+    min-height:500px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 25px;
     border-radius:23px;
 }
 
 .img-div{
-    flex: 0 0 100px;
-    max-width:100px;
+    text-align:center;
 }
 
 .start-btn{
@@ -35,12 +35,16 @@ button {
     width: 200px;
     height: 50px;
     border-radius:23px;
-    margin: 50px 25px 50px 50px;
+    margin: 25px 25px 25px 25px;
 }
 
 button:hover{
     background-color:yellow;
     border:none;
+}
+
+button:focus{
+    outline:none;
 }
 
 .question-count{

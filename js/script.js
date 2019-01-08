@@ -9,7 +9,7 @@ var optionC = document.getElementById("choiceC");
 var optionD = document.getElementById("choiceD");
 var scoreBlock = document.getElementById("scoreBlock");
 var scoreMessage = document.getElementById("scoreMessage");
-
+var quizAgain = document.getElementById("quizAgain");
 var score = 0;
 
 //questions function so our getQuestion function later can get the right value from array
@@ -127,15 +127,18 @@ function showScore() {
     quiz.style.display = "none";
     scoreBlock.style.display = "block";
     scoreBlock.innerHTML = "<p> You scored " + score + " out of 10!</p>";
-    
-    if(score<4){
+
+    if (score < 4) {
         scoreMessage.innerHTML = "<p>Not so good! Time for some revision.</p>";
-    }else if (score<8){
+    }
+    else if (score < 8) {
         scoreMessage.innerHTML = "<p>Pretty good! But still room for improvement.</p>"
-    }else {
+    }
+    else {
         scoreMessage.innerHTML = "<p>Great work! You really know your birds!</p>"
     }
     scoreMessage.style.display = "block";
+    quizAgain.style.display = "block";
 }
 
 
@@ -162,4 +165,11 @@ function check(answer) {
             showScore();
         }
     }
+}
+
+function restartQuiz() {
+    scoreBlock.style.display = "none";
+    scoreMessage.style.display = "none";
+    quizAgain.style.display = "none";
+    start.style.display = "block";
 }

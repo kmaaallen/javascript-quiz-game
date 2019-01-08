@@ -10,6 +10,7 @@ var optionD = document.getElementById("choiceD");
 var scoreBlock = document.getElementById("scoreBlock");
 var scoreMessage = document.getElementById("scoreMessage");
 var quizAgain = document.getElementById("quizAgain");
+var choiceResponse = document.getElementById("choiceResponse");
 var score = 0;
 
 //questions function so our getQuestion function later can get the right value from array
@@ -103,6 +104,7 @@ var questionIndex = 0;
 // getQuestion function
 
 function getQuestion() {
+    choiceResponse.style.display = "none"
     let q = questions[questionIndex];
     quizQuestion.innerHTML = "<p>" + q.question + "</p>";
     quizImg.innerHTML = "<img src=" + q.imgSrc + ">";
@@ -149,20 +151,28 @@ function check(answer) {
         if (answer == questions[questionIndex].correctAnswer) {
             score++;
             questionIndex++;
-            getQuestion();
+            choiceResponse.innerHTML= "<p>Correct!</p>"
+            choiceResponse.style.display = "block";
+            setTimeout(getQuestion,3000);
         }
         else {
             questionIndex++;
-            getQuestion();
+            choiceResponse.innerHTML= "<p>Inorrect!</p>"
+            choiceResponse.style.display = "block";
+            setTimeout(getQuestion,3000);
         }
     }
     else {
         if (answer == questions[questionIndex].correctAnswer) {
             score++;
-            showScore();
+            choiceResponse.innerHTML= "<p>Correct!</p>"
+            choiceResponse.style.display = "block";
+            setTimeout(showScore,3000);
         }
         else {
-            showScore();
+            choiceResponse.innerHTML= "<p>Inorrect!</p>"
+            choiceResponse.style.display = "block";
+            setTimeout(showScore,3000);
         }
     }
 }

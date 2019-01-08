@@ -14,30 +14,86 @@ var score = 0;
 //questions function so our getQuestion function later can get the right value from array
 
 let questions = [{
-    question: "Which bird is a Korimako?",
-    imgSrc: "",
-    choiceA: "New Zealand Falcon",
-    choiceB: "Bellbird",
-    choiceC: "Rock wren",
-    choiceD: "Pigeon",
+    question: "Which bird is this?",
+    imgSrc: "assets/birds/bellbird.jpg",
+    choiceA: "New Zealand Falcon/Kārearea",
+    choiceB: "Bellbird/Korimako",
+    choiceC: "Rock wren/Tuke",
+    choiceD: "Fernbird/Mātātā",
     correctAnswer: "B"
 }, {
-    question: "Which bird is a Pīwakawaka?",
-    imgSrc: "",
-    choiceA: "Saddleback",
-    choiceB: "Sparrow",
-    choiceC: "Fantail",
-    choiceD: "Stitchbird",
+    question: "Which bird is this?",
+    imgSrc: "assets/birds/fantail.jpg",
+    choiceA: "Grey warbler/Riroriro",
+    choiceB: "Marsh crake/Koitareke",
+    choiceC: "Fantail/Pīwakawaka",
+    choiceD: "Saddleback/Tīeke",
     correctAnswer: "C"
 }, {
     question: "Which bird is a Ruru?",
-    imgSrc: "",
-    choiceA: "Morepork",
-    choiceB: "Whitehead",
+    imgSrc: "assets/birds/morepork.jpg",
+    choiceA: "Morepork/Ruru",
+    choiceB: "Takahē",
     choiceC: "Wax-eye",
-    choiceD: "New Zealand Parakeet",
+    choiceD: "New Zealand Parakeet/Kākāriki",
     correctAnswer: "A"
-}];
+}, {
+    question: "Which bird is this?",
+    imgSrc: "assets/birds/tui.jpg",
+    choiceA: "Tūī",
+    choiceB: "Whitehead/Pōpokotea",
+    choiceC: "Wrybill/Ngutu pare",
+    choiceD: "Weka",
+    correctAnswer: "A"
+}, {
+    question: "Which bird is this?",
+    imgSrc: "assets/birds/dotterel.jpg",
+    choiceA: "Westland petrel/Tāiko",
+    choiceB: "Variable oystercatcher/Tōrea",
+    choiceC: "Subantarctic teal",
+    choiceD: "New Zealand dotterel/Tūturiwhatu",
+    correctAnswer: "D"
+}, {
+    question: "Which bird is this?",
+    imgSrc: "/assets/birds/kakapo.jpg",
+    choiceA: "Kākā",
+    choiceB: "Kea",
+    choiceC: "Kākāpō",
+    choiceD: "Kōkako",
+    correctAnswer: "C"
+}, {
+    question: "Which bird is this?",
+    imgSrc: "assets/birds/kotuku.jpg",
+    choiceA: "New Zealand fairy tern/Tara iti",
+    choiceB: "White heron/Kōtuku",
+    choiceC: "Shore plover/Tūturuatu",
+    choiceD: "Spotted shag/Parekareka",
+    correctAnswer: "B"
+}, {
+    question: "Which bird is this?",
+    imgSrc: "assets/birds/kea.jpg",
+    choiceA: "New Zealand robin/Toutouwai",
+    choiceB: "Paradise duck / Pūtakitaki",
+    choiceC: "Pūkeko",
+    choiceD: "Kea",
+    correctAnswer: "D"
+}, {
+    question: "Which bird is this?",
+    imgSrc: "assets/birds/kaka.jpg",
+    choiceA: "Kākā",
+    choiceB: "Tomtit/Miromiro",
+    choiceC: "Yellowhead/Mohua",
+    choiceD: "Fiordland crested penguin/Tawaki",
+    correctAnswer: "A"
+}, {
+    question: "Which bird is this?",
+    imgSrc: "assets/birds/kereru.jpg",
+    choiceA: "Kiwi",
+    choiceB: "New Zealand pigeon/Kererū",
+    choiceC: "Kingfisher/Kōtare",
+    choiceD: "Eastern bar-tailed godwit/Kuaka",
+    correctAnswer: "B"
+}, ];
 
 
 var questionIndex = 0;

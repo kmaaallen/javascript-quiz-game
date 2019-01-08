@@ -156,14 +156,14 @@ function check(answer) {
             choices.style.display = "none";
             choiceResponse.innerHTML= "<p>Correct!</p>"
             choiceResponse.style.display = "block";
-            setTimeout(getQuestion,3000);
+            setTimeout(getQuestion,2000);
         }
         else {
             questionIndex++;
             choices.style.display = "none";
             choiceResponse.innerHTML= "<p>Incorrect!</p>"
             choiceResponse.style.display = "block";
-            setTimeout(getQuestion,3000);
+            setTimeout(getQuestion,2000);
         }
     }
     else {
@@ -172,13 +172,13 @@ function check(answer) {
             choices.style.display = "none";
             choiceResponse.innerHTML= "<p>Correct!</p>"
             choiceResponse.style.display = "block";
-            setTimeout(showScore,3000);
+            setTimeout(showScore,2000);
         }
         else {
             choices.style.display = "none";
             choiceResponse.innerHTML= "<p>Inorrect!</p>"
             choiceResponse.style.display = "block";
-            setTimeout(showScore,3000);
+            setTimeout(showScore,2000);
         }
     }
 }

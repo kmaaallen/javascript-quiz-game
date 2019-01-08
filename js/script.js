@@ -120,7 +120,7 @@ function getQuestion() {
 // start quiz
 
 function beginQuiz() {
-    start.style.display = "none";
+    start.style.display ="none";
     getQuestion();
     quiz.style.display = "block";
 }

@@ -83,7 +83,7 @@ Online validators were used to check code was valid for HTML and CSS and online 
 ## Testing
 ### Testing my user stories 
 Testing documentation regarding user stories and cross-browser testing can be viewed at:
-<br> 
+<br> https://github.com/kmaaallen/javascript-quiz-game/tree/master/documentation
 
 
 ## Deployment
@@ -91,7 +91,7 @@ This page has been deployed using GitHub Pages and can be viewed at : https://km
 
 ## Credits
 ### Content
-All content regarding New Zealand native birds (particularly bird names) was taken from : https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/
+All content regarding New Zealand native birds (particularly bird names) was taken from New Zealand Department of Conservation Webiste, available at : https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/
 
 ### Media
 Images of birds were sourced from google images and filtered by the advanced search. Only images "free to use, share or modify, even commercially"

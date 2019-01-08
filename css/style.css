@@ -22,8 +22,9 @@ h1{
     border-radius:23px;
 }
 
-#start{
-    background-image:url("assets/backgroundFern.jpg");
+.img-div{
+    flex: 0 0 100px;
+    max-width:100px;
 }
 
 .start-btn{

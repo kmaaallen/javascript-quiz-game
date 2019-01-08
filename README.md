@@ -17,6 +17,7 @@ It aims to provide a picture of a bird and four options for users to choose from
 
 1) As a quizzer I want to choose from a range of answers and get a score at the end.
 2) When I answer a question, I want to see if I answered correctly or not.
+3) At the end I want to see my final score.
 
 During project development I created some basic wireframes for my project. 
 <br> These can be viewed under: 
@@ -28,17 +29,25 @@ The start button allows users to start the quiz from the home page by clicking o
 
 #### Feature 2 - Question and answer set up
 Once the quiz has been started, each question/answers screen has the same format.
-A question at the top, and four buttons underneath labelledd with different answers for the user to choose from.
-Once a user makes a button choice and clicks on it, the next question/answers set is displayed.
-HOWEVER, if it is the last question in the quiz the score page is displayed instead upon user clicking button.
+A question at the top, an immage underneath, and four buttons below labelled with different answers for the user to choose from.
+Once a user makes a button choice and clicks on it, the option buttons disappear and a message is displayed, either "correct!" 
+or "incorrect!" depending on whether the user got the question right or not. This will display automatically for 2 seconds then
+the next question/answers set is displayed.
+HOWEVER, if it is the last question in the quiz the score page is displayed instead of next question set.
 
 #### Feature 3 - Score page
 The user's score is displayed.
+A different score message is displayed depending on the score out of ten.
+A 'try again' button is displayed which will take users back to the start page of the quiz.
 
 ### Features Left to Implement
 #### Feature 1 - Hint button for extra clues.
 Users recieve an alert with an extra hint before they make their choice.
 If the hint button is activated, users recieve only half a point if then answered correctly.
+
+#### Feature 2 - Extra Challenge - Do the quiz in Te Reo (Māori)
+Button option at start of quiz takes users to another page to take the quiz in Te Reo.
+Te Reo options could then be removed from the current version so one quiz in English and one in Te Reo as an extra challenge.
 
 ## Technologies Used
 ### HTML, CSS and JavaScript
@@ -78,11 +87,11 @@ Testing documentation regarding user stories and cross-browser testing can be vi
 
 
 ## Deployment
-This page has been deployed using GitHub Pages and can be viewed at : 
+This page has been deployed using GitHub Pages and can be viewed at : https://kmaaallen.github.io/javascript-quiz-game/
 
 ## Credits
 ### Content
-All content regarding New Zealand native birds was taken from : https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/
+All content regarding New Zealand native birds (particularly bird names) was taken from : https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/
 
 ### Media
 Images of birds were sourced from google images and filtered by the advanced search. Only images "free to use, share or modify, even commercially"

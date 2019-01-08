@@ -10,6 +10,7 @@ var optionD = document.getElementById("choiceD");
 var scoreBlock = document.getElementById("scoreBlock");
 var scoreMessage = document.getElementById("scoreMessage");
 var quizAgain = document.getElementById("quizAgain");
+var choices = document.getElementById("choices");
 var choiceResponse = document.getElementById("choiceResponse");
 var score = 0;
 
@@ -112,6 +113,7 @@ function getQuestion() {
     optionB.innerHTML = q.choiceB;
     optionC.innerHTML = q.choiceC;
     optionD.innerHTML = q.choiceD;
+    choices.style.display = "block";
 }
 
 
@@ -151,13 +153,15 @@ function check(answer) {
         if (answer == questions[questionIndex].correctAnswer) {
             score++;
             questionIndex++;
+            choices.style.display = "none";
             choiceResponse.innerHTML= "<p>Correct!</p>"
             choiceResponse.style.display = "block";
             setTimeout(getQuestion,3000);
         }
         else {
             questionIndex++;
-            choiceResponse.innerHTML= "<p>Inorrect!</p>"
+            choices.style.display = "none";
+            choiceResponse.innerHTML= "<p>Incorrect!</p>"
             choiceResponse.style.display = "block";
             setTimeout(getQuestion,3000);
         }
@@ -165,11 +169,13 @@ function check(answer) {
     else {
         if (answer == questions[questionIndex].correctAnswer) {
             score++;
+            choices.style.display = "none";
             choiceResponse.innerHTML= "<p>Correct!</p>"
             choiceResponse.style.display = "block";
             setTimeout(showScore,3000);
         }
         else {
+            choices.style.display = "none";
             choiceResponse.innerHTML= "<p>Inorrect!</p>"
             choiceResponse.style.display = "block";
             setTimeout(showScore,3000);

@@ -8,7 +8,7 @@ It was built based on the tutorial provided by Code Explained and modified to fi
 <br> Their youTube tutorial  for this project can be found at: https://www.youtube.com/watch?v=49pYIMygIcU
 
 This game was created to practice using javascript. 
-<br> It can be viewed at :
+<br> It can be viewed at : https://kmaaallen.github.io/javascript-quiz-game/
 
 
 ## UX
@@ -20,7 +20,7 @@ It aims to provide a picture of a bird and four options for users to choose from
 3) At the end I want to see my final score.
 
 During project development I created some basic wireframes for my project. 
-<br> These can be viewed under: 
+<br> These can be viewed under: https://github.com/kmaaallen/javascript-quiz-game/tree/master/wireframes
 
 ## Features
 ### Existing Features

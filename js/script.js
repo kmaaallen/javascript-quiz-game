@@ -125,7 +125,7 @@ function beginQuiz() {
 function showScore() {
     quiz.style.display = "none";
     scoreBlock.style.display = "block";
-    scoreBlock.innerHTML += "<p> You scored " + score + " out of 3!</p>";
+    scoreBlock.innerHTML += "<p> You scored " + score + " out of 10!</p>";
 }
 
 

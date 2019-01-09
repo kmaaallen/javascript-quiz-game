@@ -105,6 +105,7 @@ var questionIndex = 0;
 // getQuestion function
 
 function getQuestion() {
+
     choiceResponse.style.display = "none";
     let q = questions[questionIndex];
     quizQuestion.innerHTML = "<p>Question " +(questionIndex+1) + ": " + q.question + "</p>";
@@ -188,4 +189,6 @@ function restartQuiz() {
     scoreBlock.style.display = "none";
     scoreMessage.style.display = "none";
     quizAgain.style.display = "none";
+    score = 0;
+    questionIndex = 0;
 }

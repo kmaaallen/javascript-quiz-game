@@ -60,7 +60,7 @@ button:focus {
 }
 
 /*Media queries------------------------------*/
-}
+
 @media(min-width:768px) {
     .container {
         max-height: 600px;

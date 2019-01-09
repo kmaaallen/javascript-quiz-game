@@ -33,7 +33,7 @@ let questions = [{
     choiceD: "Saddleback/Tīeke",
     correctAnswer: "C"
 }, {
-    question: "Which bird is a Ruru?",
+    question: "Which bird is this?",
     imgSrc: "assets/birds/morepork.jpg",
     choiceA: "Morepork/Ruru",
     choiceB: "Takahē",

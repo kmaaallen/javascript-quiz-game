@@ -21,14 +21,14 @@ let questions = [{
     imgSrc: "assets/birds/bellbird.jpg",
     choiceA: "New Zealand Falcon/Kārearea",
     choiceB: "Bellbird/Korimako",
-    choiceC: "Rock wren/Tuke",
+    choiceC: "Rock Wren/Tuke",
     choiceD: "Fernbird/Mātātā",
     correctAnswer: "B"
 }, {
     question: "Which bird is this?",
     imgSrc: "assets/birds/fantail.jpg",
-    choiceA: "Grey warbler/Riroriro",
-    choiceB: "Marsh crake/Koitareke",
+    choiceA: "Grey Warbler/Riroriro",
+    choiceB: "Marsh Crake/Koitareke",
     choiceC: "Fantail/Pīwakawaka",
     choiceD: "Saddleback/Tīeke",
     correctAnswer: "C"
@@ -51,14 +51,14 @@ let questions = [{
 }, {
     question: "Which bird is this?",
     imgSrc: "assets/birds/dotterel.jpg",
-    choiceA: "Westland petrel/Tāiko",
-    choiceB: "Variable oystercatcher/Tōrea",
-    choiceC: "Subantarctic teal",
-    choiceD: "New Zealand dotterel/Tūturiwhatu",
+    choiceA: "Westland Petrel/Tāiko",
+    choiceB: "Variable Oystercatcher/Tōrea",
+    choiceC: "Subantarctic Teal",
+    choiceD: "New Zealand Dotterel/Tūturiwhatu",
     correctAnswer: "D"
 }, {
     question: "Which bird is this?",
-    imgSrc: "/assets/birds/kakapo.jpg",
+    imgSrc: "assets/birds/kakapo.jpg",
     choiceA: "Kākā",
     choiceB: "Kea",
     choiceC: "Kākāpō",
@@ -67,16 +67,16 @@ let questions = [{
 }, {
     question: "Which bird is this?",
     imgSrc: "assets/birds/kotuku.jpg",
-    choiceA: "New Zealand fairy tern/Tara iti",
-    choiceB: "White heron/Kōtuku",
-    choiceC: "Shore plover/Tūturuatu",
-    choiceD: "Spotted shag/Parekareka",
+    choiceA: "New Zealand Fairy Tern/Tara iti",
+    choiceB: "White Heron/Kōtuku",
+    choiceC: "Shore Plover/Tūturuatu",
+    choiceD: "Spotted Shag/Parekareka",
     correctAnswer: "B"
 }, {
     question: "Which bird is this?",
     imgSrc: "assets/birds/kea.jpg",
-    choiceA: "New Zealand robin/Toutouwai",
-    choiceB: "Paradise duck / Pūtakitaki",
+    choiceA: "New Zealand Robin/Toutouwai",
+    choiceB: "Paradise Duck / Pūtakitaki",
     choiceC: "Pūkeko",
     choiceD: "Kea",
     correctAnswer: "D"
@@ -86,15 +86,15 @@ let questions = [{
     choiceA: "Kākā",
     choiceB: "Tomtit/Miromiro",
     choiceC: "Yellowhead/Mohua",
-    choiceD: "Fiordland crested penguin/Tawaki",
+    choiceD: "Fiordland Crested Penguin/Tawaki",
     correctAnswer: "A"
 }, {
     question: "Which bird is this?",
     imgSrc: "assets/birds/kereru.jpg",
     choiceA: "Kiwi",
-    choiceB: "New Zealand pigeon/Kererū",
+    choiceB: "New Zealand Pigeon/Kererū",
     choiceC: "Kingfisher/Kōtare",
-    choiceD: "Eastern bar-tailed godwit/Kuaka",
+    choiceD: "Eastern Bar-Tailed Godwit/Kuaka",
     correctAnswer: "B"
 }, ];
 

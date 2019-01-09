@@ -53,6 +53,10 @@ button:focus {
     padding-top: 100px;
 }
 
+#quiz{
+    overflow:hidden;
+}
+
 .quizRestart {
     display: block;
     margin-left: auto;

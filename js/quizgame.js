@@ -105,9 +105,9 @@ var questionIndex = 0;
 // getQuestion function
 
 function getQuestion() {
-    choiceResponse.style.display = "none"
+    choiceResponse.style.display = "none";
     let q = questions[questionIndex];
-    quizQuestion.innerHTML = "<p>" + q.question + "</p>";
+    quizQuestion.innerHTML = "<p>Question " +(questionIndex+1) + ": " + q.question + "</p>";
     quizImg.innerHTML = "<img src=" + q.imgSrc + ">";
     optionA.innerHTML = q.choiceA;
     optionB.innerHTML = q.choiceB;

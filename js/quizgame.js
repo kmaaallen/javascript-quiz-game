@@ -184,8 +184,8 @@ function check(answer) {
 }
 
 function restartQuiz() {
+    start.style.display = "block";
     scoreBlock.style.display = "none";
     scoreMessage.style.display = "none";
     quizAgain.style.display = "none";
-    start.style.display = "block";
 }
